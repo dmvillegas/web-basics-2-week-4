@@ -11,6 +11,7 @@ body {
 
 h1{
   margin: 4%;
+  color: sandybrown;
 }
 
 ul{
@@ -24,6 +25,7 @@ button{
   border: solid;
   border-radius: 10px;
   padding: 5px 8px;
+  color: lightpink;
 }
 
 button:hover{
@@ -32,15 +34,30 @@ button:hover{
   border: solid;
 }
 
+
+.answer {
+  display: block;
+  color:lightpink;
+}
+
 .square{
   color: white;
   padding-top: 15px;
   text-align: center;
   margin: 1%;
-  background-color: black;
+  background-color:lightblue;
   width: 55px;
-  height: 40px;
+  height: 40px; 
+}
 
+.remove {
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+  margin: 1%;
+  background-color:lightblue;
+  width: 60px;
+  height: 40px;
 }
 
 .question-container {
@@ -55,4 +72,16 @@ button:hover{
 .question-label {
   font-weight: 700;
   margin-bottom: 1em;
+  color:sandybrown;
+}
+
+.question4 {
+  color: white;
+  padding-top: 15px;
+  text-align: center;
+  margin: 1%;
+  background-color: lightblue;
+  width: 55px;
+  height: 40px
+
 }
